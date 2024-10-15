@@ -1,0 +1,440 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/home/ontologies/2024/9/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/home/ontologies/2024/9/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/home/ontologies/2024/9/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Code_Editor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compiler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Declarative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain_Specific_Programming_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Framework"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Purpose_Programming_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IDE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imperative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpreter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Logical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Markup_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object_Oriented"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procedural_Oriented"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programming_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Translator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_a_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supports"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BrainFuck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CLion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CPython"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C_sharp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F_sharp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GCC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GHC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GHCi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HTML"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Haskell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JetBrains"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LaTeX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MSVC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Microsoft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NumPy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpenCV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prolog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PyCharm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PyCharmEditor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PyPy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PyTorch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Q_sharp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Qt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SublimeText"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TensorFlow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VS_Code"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualStudio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C++"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Compiler"/>
+        <Class IRI="#Translator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Declarative"/>
+        <Class IRI="#General_Purpose_Programming_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domain_Specific_Programming_Language"/>
+        <Class IRI="#Programming_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional"/>
+        <Class IRI="#Declarative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Purpose_Programming_Language"/>
+        <Class IRI="#Programming_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imperative"/>
+        <Class IRI="#General_Purpose_Programming_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpreter"/>
+        <Class IRI="#Translator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logical"/>
+        <Class IRI="#Declarative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Markup_Language"/>
+        <Class IRI="#Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object_Oriented"/>
+        <Class IRI="#Imperative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procedural_Oriented"/>
+        <Class IRI="#Imperative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Programming_Language"/>
+        <Class IRI="#Language"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Boost"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#BrainFuck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Procedural_Oriented"/>
+        <NamedIndividual IRI="#C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IDE"/>
+        <NamedIndividual IRI="#CLion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interpreter"/>
+        <NamedIndividual IRI="#CPython"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Object_Oriented"/>
+        <NamedIndividual IRI="#C_sharp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Functional"/>
+        <NamedIndividual IRI="#F_sharp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compiler"/>
+        <NamedIndividual IRI="#GCC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compiler"/>
+        <NamedIndividual IRI="#GHC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interpreter"/>
+        <NamedIndividual IRI="#GHCi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Markup_Language"/>
+        <NamedIndividual IRI="#HTML"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Functional"/>
+        <NamedIndividual IRI="#Haskell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Object_Oriented"/>
+        <NamedIndividual IRI="#Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Company"/>
+        <NamedIndividual IRI="#JetBrains"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Markup_Language"/>
+        <NamedIndividual IRI="#LaTeX"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compiler"/>
+        <NamedIndividual IRI="#MSVC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Company"/>
+        <NamedIndividual IRI="#Microsoft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#NumPy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#OpenCV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Logical"/>
+        <NamedIndividual IRI="#Prolog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IDE"/>
+        <NamedIndividual IRI="#PyCharm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Code_Editor"/>
+        <NamedIndividual IRI="#PyCharmEditor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interpreter"/>
+        <NamedIndividual IRI="#PyPy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#PyTorch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Object_Oriented"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domain_Specific_Programming_Language"/>
+        <NamedIndividual IRI="#Q_sharp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Qt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Code_Editor"/>
+        <NamedIndividual IRI="#SublimeText"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#TensorFlow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Code_Editor"/>
+        <NamedIndividual IRI="#VS_Code"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IDE"/>
+        <NamedIndividual IRI="#VisualStudio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Object_Oriented"/>
+        <NamedIndividual IRI="#C++"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#CLion"/>
+        <NamedIndividual IRI="#C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#CLion"/>
+        <NamedIndividual IRI="#C++"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#GCC"/>
+        <NamedIndividual IRI="#C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#GCC"/>
+        <NamedIndividual IRI="#C++"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#GHC"/>
+        <NamedIndividual IRI="#Haskell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#GHCi"/>
+        <NamedIndividual IRI="#Haskell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_a_part"/>
+        <NamedIndividual IRI="#MSVC"/>
+        <NamedIndividual IRI="#VisualStudio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#MSVC"/>
+        <NamedIndividual IRI="#C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#MSVC"/>
+        <NamedIndividual IRI="#C++"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#PyCharm"/>
+        <NamedIndividual IRI="#Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_a_part"/>
+        <NamedIndividual IRI="#PyCharmEditor"/>
+        <NamedIndividual IRI="#PyCharm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#VisualStudio"/>
+        <NamedIndividual IRI="#C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#VisualStudio"/>
+        <NamedIndividual IRI="#C_sharp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#VisualStudio"/>
+        <NamedIndividual IRI="#F_sharp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#VisualStudio"/>
+        <NamedIndividual IRI="#Q_sharp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#supports"/>
+        <NamedIndividual IRI="#VisualStudio"/>
+        <NamedIndividual IRI="#C++"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_a_part"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supports"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
