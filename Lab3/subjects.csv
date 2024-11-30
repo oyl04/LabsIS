@@ -1,0 +1,6 @@
+id,name,groupID,numLectures,numPracticals,requiresSubgroups,weekType
+S1,Комп'ютерна лінгвістика,MI-41,14,14,Yes,Both
+S2,Інформаційні технології,MI-42,14,14,Yes,Both
+S3,Теорія прийняття рішень,TTP-41,14,14,Yes,Both
+S4,Статистичне моделювання,TTP-42,14,14,Yes,Both
+S5,Інтелектуальні системи,TK-41,14,14,Yes,Both
